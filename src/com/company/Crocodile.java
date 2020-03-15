@@ -10,15 +10,12 @@ final public class Crocodile extends Tiger {
         this.length = length;
     }
 
-      public Crocodile(Color color, String weight, String length) {
+    public Crocodile(Color color, String weight, String length) {
         super(color);
         this.weight = weight;
         this.length = length;
     }
 
-
-    private void getClasses() {
-    }
 
     public String getWeight(String weight) {
         return weight;
@@ -28,5 +25,10 @@ final public class Crocodile extends Tiger {
         return length;
     }
 
+    @Override
+    public Color getColor() {
+        System.out.println(Color.GREEN);
+        return null;
+    }
 }
 

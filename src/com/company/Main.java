@@ -23,13 +23,10 @@ public class Main {
         System.out.println("Crocodile");
         System.out.println(crocodile2.getFood("питаются мясом"));
         System.out.println(crocodile2.getSpeed("скорость 29км.ч"));
-
         System.out.println(crocodile2.getLength("длина 5м"));
         System.out.println(crocodile2.getWeight("1000кг"));
         System.out.println(Color.GREEN);
         System.out.println("_____________________________");
-
-
 
 
     }

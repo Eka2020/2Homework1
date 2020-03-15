@@ -4,12 +4,10 @@ public class Tiger extends Pet {
     String food;
     String speed;
 
-      public Tiger(Color color) {
+    public Tiger(Color color) {
     }
 
-    public Tiger() {
-
-    }
+    public Tiger() {    }
 
     public String getFood(String food) {
         return food;
@@ -19,6 +17,6 @@ public class Tiger extends Pet {
         return speed;
     }
 
+}
 
-   }
 
