@@ -8,7 +8,7 @@ public class Main {
         Crocodile crocodile = new Crocodile(" Crocodile ", " мясо ", " 7 ","305","100");
         Tiger tiger1 = new Tiger("Wight Tiger", Color.BROWN, new Zoo(" America ", " DeoTih "), "мясо", "5км.ч");
         tiger.printInfo();
-        crocodile.printInfo2();
+        crocodile.printInfo();
         tiger1.printInfo();
         tiger.printVoice(3, " rrrrr ");
         crocodile.printVoice(4, " brr ");

@@ -23,7 +23,8 @@ final public class Crocodile extends Tiger {
     public Crocodile(String name, String food, String speed) {
         super(name, food, speed);
     }
-    public void printInfo2() {
+    @Override
+    public void printInfo() {
         System.out.println("Name animal: "+getName()+" Weight "+getWeight()+" length "+getLength());
     }
     public String getWeight() {

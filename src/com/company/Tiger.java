@@ -18,11 +18,11 @@ public class Tiger extends Animal {
         this.speed = speed;
     }
 
-    public final void printInfo() {
+    public void printInfo() {
         System.out.println("Name animal: "+name+" name zoo " + getZoo().getName() + " address " + getZoo().getAddress() + " Skorost " + getSpeed() + " food " + getFood());
     }
 
-    public void printVoice(String voice, int i) {
+    public final void printVoice(String voice, int i) {
         for (int j = 0; j < i; j++) {
             System.out.println(voice);
         }
